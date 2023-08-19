@@ -7,7 +7,7 @@ const VideoList = () => {
     const [videos, setVideos] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/videos')
+        axios.get('https://tokopedia-play-backend.vercel.app/videos')
             .then(response => setVideos(response.data))
             .catch(error => console.error('Error fetching data:', error));
     }, []);
