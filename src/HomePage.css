@@ -1,0 +1,54 @@
+/* Homepage Styles */
+body {
+    background-color: #28282f;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #202025;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #14b11f;
+}
+
+
+img {
+    width: 350px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.video-item {
+    position: relative;
+    display: inline-block;
+  }
+
+  .video-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 95%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin: 0;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin: 40px 0;
+}
