@@ -13,7 +13,7 @@ const VideoDetailPage = () => {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/videos/${id}`)
+    axios.get(`https://tokopedia-play-backend.vercel.app/videos/${id}`)
       .then(response => {
         setVideo(response.data.video);
         setProductList(response.data.productList);
