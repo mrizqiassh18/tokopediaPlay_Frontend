@@ -9,7 +9,7 @@ const CommentForm = ({ videoId, onCommentAdded }) => {
     e.preventDefault();
 
     // Kirim data komentar ke server melalui API POST
-    axios.post(`http://localhost:5000/videos/${videoId}/comments`, {
+    axios.post(`https://tokopedia-play-backend.vercel.app/videos/${videoId}/comments`, {
       username: username,
       comment: comment
     })
